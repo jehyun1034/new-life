@@ -1,0 +1,98 @@
+<! doctype html>
+<html>
+<head>
+  <title> WEB1- html </title>
+  <meta charset="utf-8"> ( 이렇게 하면 한국어를 웹에서도 한국어로 표현할수있음)
+
+  <meta charset="utf-8">
+  Char : 문자 set : 읽어라
+</head>
+
+<body>
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+<li>html 의 가장 중요한 < > </> 태그라는 부분. </li>
+
+<h1>HTML이란 무엇인가</h1>
+
+
+<p><a href="" target="_blank">Hypertext markup language(HTML)</a> is the standard markup language for
+<strong>creating <u>web</u> pages</strong> and web applications. Web browsers receive Html documents from a web server or from local storage
+and render them into multimedia web pages. HTML describes the structure of a web page semantically and originaly
+includes cues for the apperance of the document.</p>
+<p>HTML elements are the building blocks of HTML elements are the building blocks of HTML pages.
+with html constructs, images and other objects, such as interactive forms, may be embedded into the rendered page.</p>
+
+
+
+// p tag를 통해서 어디서 부터 어디까지가 단락임을 나타낼수있고, css를 통해서 더욱 정교한 설정이 가능하다.
+
+// br tag는 단순히 문장을 나누는 것이다. brbrbr 여러개 이용하면 그만큼 문장을 띄울수있겠지?<br>
+
+<br> 1. <strong>coding</strong> 단어를 굵게 표시하는 부분
+<br> 2. <u> web </u> 밑줄을 생성하는 부분
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+<br> 이미지를 웹 페이지에 넣을때 사용하는 태그 : <img> 태그의 이름만으로 정보가 부족할때가 있다는 것이다.
+그래서 새로운 문법을 출현하는 것인데 <br>
+
+<img src="이미지의 주소를 웹 페이지에 이미지로서 표현한다는 것이다" alt="">
+
+
+<br> <img src="coding.jpg" width= "20%">
+<br> 이 src, width 를 attribute 속성이라고 해석하고 우리는 속성을 통해서 더 많은 의미를 담을수있는것이다.
+img 라는 태그안에 정보를 넣을수 있는 속성이라는 친구들이 존재하는 것임.
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+부모자식이라는 개념을 도입. li라는 list 라는 부모개념인
+  <ol> 과 <ul>를 배웠음
+      ol은 ordered list , ul은 unordered list 라는 의미를 지닌다.
+
+      // <<ul>
+           이 친구는 어떤 부분이 하나의 단락이나 하나의 묶음임을 나타낼때 사용한다.
+        </ul>
+     하지만 ol 과 다른점이 있다면 바로 숫자를 앞에 써줘야한다는 것이고
+     앞에꺼 하나가 지워지면 전부 숫자를 바꿔야한다는 한계가 존재한다. ol은 상위버전이다.
+<ol>
+  <li>HTML</li>
+  <li>css</li>
+  <li>Javascript</li>
+  </ol>
+
+<ul>
+  <li>  1. HTML </li>
+  <li>  2. CSS  </li>
+  <li>  3. Javascript </li>
+      </ul>
+  이렇게 하던가 둘중 하나를 해야함.
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+목차를 넣는 것을 배우자. 목차 태그라는 것이 존재한다. 목록 = list 를 따서 li를 이용한다. ( 각각의 항목 앞에 ctrl 클릭 하면 한번에 쓸수잇다)
+<li>html</li>
+<li>css</li>
+<li>Javascript</li>
+
+<li>egoing</li>
+<li>k8805</li>
+<li>youbin</li>
+// 각기 다른 목록들을 띄어서 의미를 나눠야 할때는 ul 이라는 태그를 이용한다. li 태그들은 경계를 짓기 위한 부모 태그가 필요하고 ,
+이 부모를 ul 이라고 하는 거지
+
+<ul>
+<li>html</li>
+<li>css</li>
+<li>Javascript</li>
+</ul>
+
+// ol 개념을 도입 각기 다른 경계를 짓는것이다.
+
+ul 과 ol 은 모두 뒤에 list 라는 것을 포함하지
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+title 태그, 한국어를 web에 표시하는 방법 utf8
+웹 브라우저야 이 파일을 열때는 utf 8로 열렴
+</body>
+</html>
+
+anchor 닻 .
+
+<a href=" 링크를 연결할 주소" target="_blank" title="html5 specification">  HTML </a>
+targer blank 는 클릭하면 새로운 창을 만드는 기능을, title은 클릭하기 전에 어떤 링크로 갈것인지에 대한 설명을 한다.
